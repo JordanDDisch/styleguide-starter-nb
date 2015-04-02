@@ -1,0 +1,61 @@
+.quote-listing,
+%quote-listing {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-listing__item,
+%quote-listing__item {
+  display: flex;
+  flex-direction: column;
+  @include breakpoint($bp-medium) {
+    flex-direction: row;
+  }
+
+}
+
+.quote-listing__body,
+%quote-listing__body {
+  flex: 1;
+}
+
+.quote-listing__image,
+%quote-listing__image {
+  @include breakpoint($bp-medium) {
+    padding-right: 1.5rem;
+  }
+}
+
+.quote-listing__meta,
+%quote-listing__meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.quote-listing__author,
+%quote-listing__author {
+  font-weight: bold;
+}
+
+.quote-listing__product__name,
+%quote-listing__product__name {
+  font-weight: 400;
+}
+
+.quote-listing__product__title,
+%quote-listing__product__title {
+  @extend %font--small;
+  display: block;
+  font-style: italic;
+}
+
+.quote-listing__product__image,
+%quote-listing__product__image {
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+

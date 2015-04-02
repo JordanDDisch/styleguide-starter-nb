@@ -1,0 +1,62 @@
+// Main Nav
+//
+// Markup: main-nav.html
+//
+// Styleguide components.main-nav
+
+@import 'components/list-inline/list-inline';
+
+.main-nav,
+%main-nav {
+  @extend %clearfix;
+  @extend %palette-1;
+  @extend %spacer__small;
+}
+
+.main-nav__list,
+%main-nav__list {
+  @extend %list-unstyled;
+  @extend %link-no-underline__wrapper;
+  @extend %font--small;
+  line-height: 1.5rem !important;
+
+  @include breakpoint($bp-large) {
+
+    @include list-inline;
+    float: right;
+  }
+}
+
+
+.main-nav__icon,
+%main-nav__icon {
+  float: right;
+  cursor: pointer;
+  line-height: 0;
+
+  @include breakpoint($bp-large) {
+    display: none;
+  }
+
+  .main-nav__active & path {
+    fill: #ffc0cb;
+  }
+}
+
+
+// State for toggling nav
+
+
+.main-nav__list {
+  display: none;
+
+  .main-nav__active & {
+    display: block;
+  }
+
+  @include breakpoint($bp-large) {
+    display: block;
+  }
+}
+
+

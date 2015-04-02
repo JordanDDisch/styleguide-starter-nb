@@ -1,0 +1,22 @@
+// Link No Underline
+//
+// Markup: link-no-underline.html
+//
+// Styleguide components.link-no-underline
+
+
+%link-no-underline,
+.link-no-underline {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+%link-no-underline__wrapper,
+.link-no-underline__wrapper {
+  a {
+    @extend %link-no-underline;
+  }
+}

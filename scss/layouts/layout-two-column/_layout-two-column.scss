@@ -1,0 +1,10 @@
+.layout-two-column,
+{
+  @extend %spacer__bottom;
+  width: 100%;
+
+  @include breakpoint($bp-medium) {
+    width: 50%;
+    float: left;
+  }
+}

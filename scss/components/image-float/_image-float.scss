@@ -1,0 +1,15 @@
+// Image Float
+//
+// Markup: image-float.html
+//
+// Styleguide components.image-float
+
+
+.image-float,
+%image-float {
+  @include breakpoint($bp-medium) {
+    float: left;
+    width: 50%;
+    padding-right: 1rem;
+  }
+}

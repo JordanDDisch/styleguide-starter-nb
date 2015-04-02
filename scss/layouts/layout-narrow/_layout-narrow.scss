@@ -1,0 +1,17 @@
+// Layout Narrow
+//
+// Markup: layout-narrow.html
+//
+// Styleguide layouts.layout-narrow
+
+$layout-narrow__width: 728px;
+
+.layout-narrow {
+  @extend %inset;
+  @extend %clearfix;
+  position: relative;
+  max-width: 728px;
+  margin: auto;
+  padding-bottom: 1rem;
+
+}

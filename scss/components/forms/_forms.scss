@@ -1,0 +1,30 @@
+// Forms
+//
+// Markup: forms.html
+//
+// Styleguide components.forms
+
+
+.input,
+%input {
+  @extend %rounded-corners;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.3);
+  margin-bottom: 0.25rem;
+}
+
+.forms__input,
+%forms__input {
+  @extend %input;
+  width: 100%;
+}
+
+.forms__input--email,
+%forms__input--email {
+  @extend %forms__input;
+  margin-bottom: 1rem;
+}
+
+
+

@@ -1,0 +1,8 @@
+.display-at,
+%display-at {
+    display: none;
+
+  @include breakpoint($bp-medium) {
+    display: block;
+  }
+}

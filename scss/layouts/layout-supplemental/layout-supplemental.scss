@@ -1,0 +1,45 @@
+// Layout Supplemental
+//
+// Markup: layout-supplemental.html
+//
+// Styleguide layouts.layout-supplemental
+
+$layout-supplemental__width: 150px;
+
+.layout-supplemental__relative,
+%layout-supplemental__relative {
+  position: relative;
+}
+
+.layout-supplemental__wrapper,
+%layout-supplemental__wrapper {
+  text-align: center;
+}
+
+.layout-supplemental__left,
+%layout-supplemental__left {
+  @include breakpoint($bp-medium) {
+    text-align: left;
+  }
+  @include breakpoint($bp-medium $bp-large) {
+    float: left;
+    width: calc(100% - 150px);
+    padding-right: 1rem;
+  }
+}
+
+.layout-supplemental__right,
+%layout-supplemental__right {
+  @extend %spacer__top;
+  display: inline-block;
+  width: $layout-supplemental__width;
+  @include breakpoint($bp-medium) {
+    float: right;
+    width: $layout-supplemental__width;
+  }
+  @include breakpoint($bp-x-large) {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 2rem);
+  }
+}
