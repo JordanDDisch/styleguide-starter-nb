@@ -4,14 +4,7 @@
 //
 // Styleguide layouts.layout-three-column
 
-.layout-three-column,
-%layout-three-column {
 
-  @include breakpoint(730px) {
-    width: 33.33%;
-    float: left;
-  }
-}
 
 
 
