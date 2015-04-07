@@ -1,0 +1,17 @@
+{
+  "name": "pledge-vegan-client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rcaracaus/pledge-vegan-client",
+  "authors": [
+    "Rob Caracaus <rcaracaus@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "breakpoint-sass": "~2.5.0"
+  }
+}

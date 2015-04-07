@@ -1,0 +1,11 @@
+.border__horizontal,
+%border__horizontal {
+  border-right: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+}
+
+.border__vertical,
+%border__vertical {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}

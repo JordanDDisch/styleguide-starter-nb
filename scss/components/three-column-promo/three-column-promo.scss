@@ -1,0 +1,28 @@
+// 3 Column Promo
+//
+// Markup: three-column-promo.html
+//
+// Styleguide components.three-column-promo
+
+.three-column-promo,
+%three-column-promo {
+  @extend %layout-three-column;
+  @extend %text-center;
+
+  padding: 3rem 2rem;
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.three-column-promo__middle {
+  @extend %border__vertical;
+
+  @include breakpoint(730px) {
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+  }
+}
