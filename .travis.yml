@@ -8,4 +8,3 @@ deploy:
   secret_access_key: "8Qp+XFbnEng4q9Zbwv1Jgx7CgIRtuQtbXtDKH8jl"
   bucket: "nation-builder"
   skip_cleanup: true
-  local_dir: /dist/css/styles.css
