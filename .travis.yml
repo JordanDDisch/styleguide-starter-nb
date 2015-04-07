@@ -8,7 +8,7 @@ deploy:
   secret_access_key:
     secure: XCwMtxlpSKeZOS9BEJ2zK8Dwy9Z9SAnaG4MQ+tz3xLxhYdtM5DpW3qj0XD5uLNTh5qjGrk4GdDqlcvRgPsbsuiHFrqwTL07FxpgTJTF/lJjQix65rJT3Gk8owNbM6F/9OWkulrjprKe8yf2XizXQVGK/0Fnl4/V5E3dVCAZuX9I=
   bucket: nation-builder
-  local-dir: dist/css/styles.css
+  local-dir: dist/css
   acl: public_read
   on:
     repo: JordanDDisch/styleguide-starter-nb
