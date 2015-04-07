@@ -3,6 +3,8 @@
 // These are the base styles applied to HTML elements.
 //
 // Styleguide: base
+//
+//= require base/*.scss
 
 @import 'bootstrap/bootstrap';
 @import '../bower_components/breakpoint-sass/stylesheets/breakpoint';
