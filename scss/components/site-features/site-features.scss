@@ -12,6 +12,7 @@
   padding: 1rem 0;
   font-size: 1.6rem;
   background: white;
+
 }
 
 .site-features__item,
@@ -57,9 +58,4 @@
     transition: all .5s ease-in;
     transform: translate(0,-50px);
   }
-}
-
-%layout-max {
-  max-width: 80em;
-  margin: auto;
 }
